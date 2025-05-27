@@ -20,11 +20,20 @@ const morePage = () => {
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
         <PackagePlus className="h-4 w-4" />
-        More
+        Indianskyimages
       </Badge>
       <div className="flex flex-col gap-3">
-        <Heading>More</Heading>
+        <Heading>Indianskyimages</Heading>
+
+          <FramerWrapper y={20} delay={0}>
+          <p className="font-poppins text-lg text-primary max-sm:text-base">
+            <strong>indianskyimages</strong> is my passion project — a community-driven app where users can share authentic daily moments.  
+            I’m excited to evolve this project into a full-fledged mobile and web app going forward.  
+            Stay tuned for new features, updates, and ways to connect!
+          </p>
+        </FramerWrapper>
       </div>
+      
       <div className="h-auto w-full flex flex-wrap gap-3 p-2">
         {portfolioConfig.moreLinks.map((value, indx) => {
           return (

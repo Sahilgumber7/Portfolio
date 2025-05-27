@@ -304,45 +304,38 @@ export const portfolioConfig = {
     },
   ],
 
-  // More Links Information
-  moreLinks: [
-    {
-      title: "Dev.to",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Dev.to ",
-      link: "https://dev.to/random_ti",
-    },
-    {
-      title: "Hashnode",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Hashnode",
-      link: "https://mdtaquiimam.hashnode.dev/",
-    },
-    {
-      title: "Medium",
-      description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Medium",
-      link: "https://medium.com/@mdtaqui.jhar",
-    },
-    {
-      title: "Daily.Dev",
-      description:
-        "I am also the member of Daily Dev squads and i also upload post on some squads.",
-      link: "https://app.daily.dev/taqui_786",
-    },
-    {
-      title: "Gumroad",
-      description:
-        "I also sell digital products on gumroad like Notion Templates and web projects etc.",
-      link: "https://mdtaquijhar.gumroad.com/",
-    },
-    {
-      title: "Buy Me a coffee",
-      description:
-        "Supports my content quality, new topics, and project creation.",
-      link: "https://www.buymeacoffee.com/taquidevloper",
-    },
-  ],
+moreLinks: [
+  {
+    title: "indianskyimages Twitter",
+    description: "Follow indianskyimages on Twitter for updates, announcements, and community chats.",
+    link: "https://twitter.com/indianskyimages", // replace with your actual Twitter URL
+  },
+  {
+    title: "indianskyimages Instagram",
+    description: "See daily moments and stories shared by the indianskyimages community on Instagram.",
+    link: "https://instagram.com/indianskyimages", // replace with your actual Instagram URL
+  },
+  {
+    title: "indianskyimages YouTube",
+    description: "Watch tutorials, demos, and behind-the-scenes videos of indianskyimages on YouTube.",
+    link: "https://youtube.com/@indianskyimages", // replace with your actual YouTube channel URL
+  },
+  {
+    title: "indianskyimages GitHub",
+    description: "Explore the source code and contribute to the indianskyimages project on GitHub.",
+    link: "https://github.com/yourusername/indianskyimages", // replace with your actual GitHub repo URL
+  },
+  {
+    title: "indianskyimages Website",
+    description: "Visit the official indianskyimages website to learn more and join the community.",
+    link: "https://indianskyimages.example.com", // replace with your actual website URL
+  },
+  {
+    title: "Support indianskyimages",
+    description: "Support the ongoing development of indianskyimages through donations or sponsorships.",
+    link: "https://www.buymeacoffee.com/indianskyimages", // replace with your actual support/donation link
+  },
+],
 
   
   apiKeys: {
