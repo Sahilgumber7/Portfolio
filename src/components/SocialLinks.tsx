@@ -3,7 +3,6 @@ import {
   Instagram,
   Linkedin,
   Twitter,
-  ExternalLink,
   Github,
 } from "lucide-react";
 import { buttonVariants } from "./ui/button";
@@ -34,6 +33,7 @@ const SocialLinks = () => {
       icon: <Github />,
     },
   ];
+
   return (
     <>
       {links.map((itm, indx) => {
@@ -42,10 +42,11 @@ const SocialLinks = () => {
         return (
           <FramerWrapper key={indx} delay={timing} y={50}>
             <Link
-              target="blank"
+              target="_blank"
               href={itm.link}
               className={cn(
-                buttonVariants({ variant: "outline", size: "icon" })
+                buttonVariants({ variant: "outline", size: "icon" }),
+                "text-black dark:text-white border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition"
               )}
             >
               {itm.icon}

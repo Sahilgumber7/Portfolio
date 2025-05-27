@@ -4,46 +4,52 @@ import { Badge } from "@/components/ui/badge";
 import { Briefcase } from "lucide-react";
 import { portfolioConfig } from "@/config/portfolio.config";
 
-const educationPage = () => {
+const EducationPage = () => {
   return (
-    // ABOUT PAGE
-    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
+    <section className="h-full w-full relative flex flex-col items-start gap-6 overflow-hidden px-4 max-w-5xl mx-auto">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
-        <Briefcase className="h-4 w-4" />
+        <Briefcase className="h-4 w-4" aria-hidden="true" />
         Experience
       </Badge>
-      <div className="flex flex-col gap-3">
+
+      <div className="flex flex-col gap-4 w-full">
         <Heading>My Experience</Heading>
-      </div>
-      <div className="w-full h-fit flex flex-col">
-        {portfolioConfig.experience.map((exp, index) => (
-          <div className="w-full h-fit flex" key={index}>
-            <FramerWrapper
-              y={0}
-              x={-100}
-              delay={0.35 + index * 0.1}
-              className="w-1/4 font-rubik flex items-center justify-evenly text-lg max-sm:text-base"
+
+        <div className="w-full flex flex-col ">
+          {portfolioConfig.experience.map((exp, index) => (
+            <article
+              key={index}
+              className="flex flex-col sm:flex-row w-full"
+              aria-label={`Experience: ${exp.period}`}
             >
-              {exp.period}
-            </FramerWrapper>
-            <FramerWrapper
-              y={0}
-              x={100}
-              delay={0.35 + index * 0.1}
-              className="relative w-3/4 border-l-4 border-l-[#3c3c3c] p-4 gap-3 education_point"
-            >
-              <div className="text-2xl font-rubik max-sm:text-xl">
-                {exp.role}, <br /> {exp.company}
-              </div>
-              <p className="font-poppins text-base w-full text-primary max-sm:text-xs">
-                {exp.description}
-              </p>
-            </FramerWrapper>
-          </div>
-        ))}
+              <FramerWrapper
+                y={0}
+                x={-100}
+                delay={0.35 + index * 0.1}
+                className="sm:w-1/4 font-rubik flex items-center justify-start sm:justify-center text-lg max-sm:text-base text-muted-foreground dark:text-muted-foreground-dark"
+              >
+                <time dateTime={exp.period.replace(/\s/g, "")}>{exp.period}</time>
+              </FramerWrapper>
+
+              <FramerWrapper
+                y={0}
+                x={100}
+                delay={0.35 + index * 0.1}
+                className="relative sm:w-3/4 border-l-4 border-l-gray-700 dark:border-l-gray-400 p-4 gap-3 education_point"
+              >
+                <h3 className="text-2xl font-rubik max-sm:text-xl font-semibold text-primary dark:text-primary-light">
+                  {exp.role}, <br /> {exp.company}
+                </h3>
+                <p className="font-poppins text-base max-sm:text-sm text-primary dark:text-primary-light mt-2">
+                  {exp.description}
+                </p>
+              </FramerWrapper>
+            </article>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default educationPage;
+export default EducationPage;

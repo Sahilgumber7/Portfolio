@@ -2,6 +2,8 @@ export const portfolioConfig = {
   // Basic Information
   name: "Sahil Gumber",
   title: "Full Stack Web & Mobile Developer",
+  title2: "Full Stack Mobile",
+
   description: "I am a Passionate Software Developer",
   location: "Delhi, India",
 
@@ -63,12 +65,7 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: "I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India. I'm passionate about crafting web projects and contributing to open-source communities. I specialize in modern JavaScript frameworks and responsive CSS design, focusing on creating pixel-perfect, user-friendly interfaces. With strong attention to detail and efficient delivery, I build seamless web experiences that combine functionality with elegant design.",
-    hobbies: [
-      "Coding",
-      "Tech Blog Writing",
-      "Creating Cool Projects",
-    ],
+     bio: "I'm a Full Stack Web Developer based in Delhi, India, passionate about building clean, responsive, and user-friendly web applications. I specialize in modern JavaScript frameworks like React and Next.js, and work with tools like Tailwind CSS, MongoDB, Supabase, and Firebase.I enjoy turning ideas into real projects, contributing to open source, and constantly exploring new technologies to create fast and functional digital experiences.",
     personalInfo: {
       language: "English, Hindi",
       nationality: "India",
@@ -80,8 +77,8 @@ export const portfolioConfig = {
   skills: {
     roles: [
       "Freelancer",
-      "Blogger",
-      "Gamer",
+      "Doom Scroller",
+      "Yapper",
       "Creator",
       "Student",
       "Contributer",
@@ -174,6 +171,14 @@ export const portfolioConfig = {
   // Education Information
   education: [
     {
+      degree: "Senior Secondary School",
+      institution: "Bharti Public School",
+      location: "Bharti Public School, Delhi",
+      period: "2009 - 2022",
+      description:
+        "Completed my Senior Secondary education with a focus on Science and Mathematics. Developed a strong foundation in analytical thinking and problem-solving skills.",
+    },
+    {
       degree: "Bachelor of Technology in Computer Science",
       institution: "Guru Gobind Singh Indraprastha University",
       location: "Vivekanand Institute of Professional Studies, Delhi",
@@ -186,20 +191,28 @@ export const portfolioConfig = {
   // Experience Information
   experience: [
     {
-      role: "Bachelor of Technology in Computer Science",
-      company: "Guru Gobind Singh Indraprastha University",
-      location: "Vivekanand Institute of Professional Studies, Delhi",
-      period: "2022 - 2026",
+      role: "Technical Intern",
+      company: "Get Max Value Pvt. Ltd.",
+      location: " Delhi",
+      period: "June 2024 - July 2024",
       description:
-        "Currently pursuing a B.Tech in Computer Science, focusing on software development and web technologies. Engaged in various projects and internships to enhance practical skills.",
+        "Worked as a Technical Intern, focusing on web development and software testing. Gained experience in developing and testing web applications.",
     },
     {
-      role: "Bachelor of Technology in Computer Science",
-      company: "Guru Gobind Singh Indraprastha University",
-      location: "Vivekanand Institute of Professional Studies, Delhi",
-      period: "2022 - 2026",
+      role: "Technical Intern",
+      company: "QuickITR",
+      location: " Delhi",
+      period: "July 2024 - August 2024",
       description:
-        "Currently pursuing a B.Tech in Computer Science, focusing on software development and web technologies. Engaged in various projects and internships to enhance practical skills.",
+        "Worked as a UI/UX Designer Intern, focusing on designing user interfaces and enhancing user experience for web applications. Also developed a chatbot using twilio and python",
+    },
+    {
+      role: "React Native Intern",
+      company: "PYOP",
+      location: " Delhi",
+      period: "May 2025 - Ongoing",
+      description:
+        "Currently working as a React Native Intern, focusing on mobile application development. Gaining hands-on experience in building cross-platform mobile applications using React Native.",
     }
   ],
 
