@@ -18,6 +18,7 @@ import { Dock, DockIcon, DockItem, DockLabel } from '@/components/animation/Dock
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import DarkModeToggle from "./DarkModeToggle";
 import FramerWrapper from "./animation/FramerWrapper";
 import { usePathname } from "next/navigation";
 
@@ -118,7 +119,15 @@ const Navbar = () => {
         </DockItem>
           </Link>
       ))}
+      <DockItem
+          className={cn("aspect-square rounded-full bg-gray-200 dark:bg-neutral-800 ")}
+          >
+            <DarkModeToggle />
+          <DockLabel>Dark Mode</DockLabel>
+          </DockItem>
+      
     </Dock>
+      
     </div>
   );
 };

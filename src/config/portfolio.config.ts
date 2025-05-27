@@ -66,8 +66,6 @@ export const portfolioConfig = {
     bio: "I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India. I'm passionate about crafting web projects and contributing to open-source communities. I specialize in modern JavaScript frameworks and responsive CSS design, focusing on creating pixel-perfect, user-friendly interfaces. With strong attention to detail and efficient delivery, I build seamless web experiences that combine functionality with elegant design.",
     hobbies: [
       "Coding",
-      "Playing Games",
-      "Watching Anime",
       "Tech Blog Writing",
       "Creating Cool Projects",
     ],
@@ -176,13 +174,33 @@ export const portfolioConfig = {
   // Education Information
   education: [
     {
-      degree: "Bachelor of Computer Application",
-      institution: "Ranchi University Jharkhand",
-      location: "Doranda College Ranchi",
-      period: "July 2023 - 2026",
+      degree: "Bachelor of Technology in Computer Science",
+      institution: "Guru Gobind Singh Indraprastha University",
+      location: "Vivekanand Institute of Professional Studies, Delhi",
+      period: "2022 - 2026",
       description:
-        "I am currently Studying Bachelor of Computer Application form Doranda College Ranchi a Goverment College of Ranchi. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of computer science.",
+        "Currently pursuing a B.Tech in Computer Science, focusing on software development and web technologies. Engaged in various projects and internships to enhance practical skills.",
     },
+  ],
+
+  // Experience Information
+  experience: [
+    {
+      role: "Bachelor of Technology in Computer Science",
+      company: "Guru Gobind Singh Indraprastha University",
+      location: "Vivekanand Institute of Professional Studies, Delhi",
+      period: "2022 - 2026",
+      description:
+        "Currently pursuing a B.Tech in Computer Science, focusing on software development and web technologies. Engaged in various projects and internships to enhance practical skills.",
+    },
+    {
+      role: "Bachelor of Technology in Computer Science",
+      company: "Guru Gobind Singh Indraprastha University",
+      location: "Vivekanand Institute of Professional Studies, Delhi",
+      period: "2022 - 2026",
+      description:
+        "Currently pursuing a B.Tech in Computer Science, focusing on software development and web technologies. Engaged in various projects and internships to enhance practical skills.",
+    }
   ],
 
   // Projects Information
