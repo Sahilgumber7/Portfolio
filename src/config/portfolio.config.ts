@@ -15,7 +15,7 @@ export const portfolioConfig = {
     instagram: "https://www.instagram.com/sahilgumber7",
     twitter: "https://twitter.com/sahilgumber7_",
     linkedin: "https://www.linkedin.com/in/sahilgumber7",
-    github: "https://github.com/sahilgumber7", // Assuming this is the GitHub link
+    github: "https://github.com/sahilgumber7", 
   },
 
   // SEO Information
@@ -219,88 +219,47 @@ export const portfolioConfig = {
   // Projects Information
   projects: [
     {
-      title: "WePost- A modern, minimalistic social platform.",
+      title: "Indianskyimages- A community driven app",
       description:
-        "WePost is a modern, minimalistic social platform for sharing posts, like, follow, and engaging in comments etc.",
-      tags: ["Tanstack-Query", "PostgreSQL", "Shadcn Ui", "Nextjs"],
-      link: "https://we-post-dev.vercel.app",
+        "Indianskyimages is a community-driven app where users can share their daily moments through images and videos. The platform aims to create a space for authentic content, fostering connections and interactions among users.",
+      tags: ["Nextjs", "Typescript", "Tailwindcss", "Shadcn Ui" , "Supabase"],
+      link: "https://indian-sky-images.vercel.app", 
+      
     },
     {
-      title: "Devzone- A community chat app for devs",
+      title: "finatics- A Finance App",
       description:
-        "DevZone is the ultimate chat platform for developers to connect, collaborate, and code together. Join the conversation and level up your coding journey.",
-      tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
-      link: "https://devzone-ti.vercel.app/",
+      "Finatics is a finance app that helps users manage their finances effectively. It provides features for tracking expenses, budgeting, and financial planning, making it easier for users to achieve their financial goals.",
+      tags: ["Typescript", "Supabase", "Shadcn Ui", "Nextjs"],
+      link: "https://github.com/sahilgumber7/finatics",
     },
     {
-      title: "itZmyLink- One Page many Links",
+      title: "BillWise - A billing and inventory management app",
       description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
+        "BillWise is a comprehensive billing and inventory management application designed to streamline business operations. It offers features for managing sales, purchases, and inventory, making it easier for businesses to keep track of their financial transactions and stock levels.",
+      tags: ["Nextjs", "Typescript", "Shadcn Ui", "mongoDB", "django"],
+      link: "https://github.com/sahilgumber7/billwise",
+    },
+    {
+      title: "Resume.io - A Resume Builder App",
+      description:
+        "Resume.io is a user-friendly resume builder application that allows users to create professional resumes quickly and easily. It offers customizable templates, drag-and-drop functionality, and export options to help users present their skills and experiences effectively.",
       tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+      link: "https://github.com/sahilgumber7",
     },
     {
-      title: "GitEstimate- Github estimate worth generator",
+      title: "MovieMania- A Movie App",
       description:
-        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
+      " MovieMania is a movie app that provides users with information about movies, including ratings, reviews, and trailers. It allows users to search for movies, view details, and discover new films based on their preferences.",
+      tags: ["Machine Learning", "Authjs", "Typescript", "ReactNative", "Expo"], 
+      link: "https://github.com/sahilgumber7/MovieMania-app",
     },
     {
-      title: "Mixcn-ui- Reusable components for Nextjs",
+      title: "Twilio Chatbot",
       description:
-        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx", "Library"],
-      link: "https://mixcn-ui.vercel.app",
-    },
-    {
-      title: "Rupeespot- All deals Product in one place",
-      description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
-    },
-    {
-      title: "Formcraft- Build Type-Safe Forms with Zero Effort",
-      description:
-        "Create production-ready forms with Zod validation, React Hook Form, and TypeScript. Design, customize, and deploy in minutes.",
-      tags: ["Nextjs", "Shadcnui", "Zod", "React Hook Form "],
-      link: "https://formcraft-ti.vercel.app/",
-    },
-    {
-      title: "KryptoKapital- Investing in Cryptocurreny",
-      description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://pro.kryptokapital.info/",
-    },
-    {
-      title: "FriendZ - A social media Platform",
-      description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
-    },
-    {
-      title: "ChatApp- Simple instagram clone",
-      description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+        "My internship project at QuickITR, where I developed a chatbot using Twilio and Python. The chatbot is designed to assist users with various queries and provide information efficiently.",
+      tags: ["Twilio", "Python", "Chatbot"],
+      link: "https://github.com/sahilgumber7/Twilio-Chatbot",
     },
   ],
 
