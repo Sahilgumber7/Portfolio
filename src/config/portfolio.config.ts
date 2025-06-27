@@ -65,7 +65,7 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-     bio: "I'm a Full Stack Web Developer based in Delhi, India, passionate about building clean, responsive, and user-friendly web applications. I specialize in modern JavaScript frameworks like React and Next.js, and work with tools like Tailwind CSS, MongoDB, Supabase, and Firebase.I enjoy turning ideas into real projects, contributing to open source, and constantly exploring new technologies to create fast and functional digital experiences.",
+     bio: "I'm a Full Stack Web Developer based in Delhi, India, passionate about building clean, responsive, and user-friendly web apps. I specialize in modern JavaScript frameworks like React and Next.js, and use tools like Tailwind CSS, MongoDB, Supabase, and Firebase. I enjoy turning ideas into real projects, contributing to open source, and exploring new technologies to create fast, functional digital experiences.",
     personalInfo: {
       language: "English, Hindi",
       nationality: "India",
@@ -227,11 +227,11 @@ export const portfolioConfig = {
       
     },
     {
-      title: "finatics- A Finance App",
+      title: "Finatics- A Finance App",
       description:
       "Finatics is a finance app that helps users manage their finances effectively. It provides features for tracking expenses, budgeting, and financial planning, making it easier for users to achieve their financial goals.",
       tags: ["Typescript", "Supabase", "Shadcn Ui", "Nextjs"],
-      link: "https://github.com/sahilgumber7/finatics",
+      link: "finatics-kp40jlck3-sahilgumber7s-projects.vercel.app",
     },
     {
       title: "BillWise - A billing and inventory management app",
@@ -298,6 +298,6 @@ moreLinks: [
 
   
   apiKeys: {
-    resendApiKey: "re_LGaRDrPB_7SJNroSPji7uwfwjexwxpEdC", // This should be loaded from environment variables in a real app
+    resendApiKey: "re_LGaRDrPB_7SJNroSPji7uwfwjexwxpEdC", 
   },
 };

@@ -1,4 +1,4 @@
-import logo from "../../public/portfolioLogo.png";
+import hero from '../public/heroimage.jpg'
 import Image from "next/image"
 
 const HeroImage = ()  => {
@@ -8,12 +8,12 @@ const HeroImage = ()  => {
     return(
         <>
           <Image
-          src={logo}
-          alt="logo"
+          src={hero}
+          alt="hero"
           loading="eager"
           priority
-          height={1000}
-          width={1000}
+          height={400}
+          width={400}
         />
         </>
     )
