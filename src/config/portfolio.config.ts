@@ -18,7 +18,7 @@ export const portfolioConfig = {
   // SEO Information
   seo: {
     url: "https://sahlgumber7.vercel.app", // Add your deployed URL here
-    ogImage: "src\public\og_image.png", // Add OG image path
+    ogImage: "https://i.postimg.cc/JhRw7Vs9/og-image.png", // Add OG image path
     twitterHandle: "@sahilgumber7_",
     keywords: [
       "Sahil Gumber", "Full Stack Developer", "Web Developer", "Mobile Developer",
