@@ -17,13 +17,13 @@ export const portfolioConfig = {
 
   // SEO Information
   seo: {
-    url: "https://your-portfolio-website.vercel.app", // Add your deployed URL here
-    ogImage: "https://your-portfolio-website.vercel.app/og-image.png", // Add OG image path
+    url: "https://sahlgumber7.vercel.app", // Add your deployed URL here
+    ogImage: "src\public\og_image.png", // Add OG image path
     twitterHandle: "@sahilgumber7_",
     keywords: [
       "Sahil Gumber", "Full Stack Developer", "Web Developer", "Mobile Developer",
       "React", "Next.js", "JavaScript", "TypeScript", "Portfolio", "Tailwind CSS",
-      "MongoDB", "Supabase", "Firebase", "Developer Portfolio"
+      "MongoDB", "Supabase", "Firebase", "Developer Portfolio" , "Sahil", "Gumber", "sahilgumber7"
     ],
     authors: [
       {
@@ -150,8 +150,4 @@ export const portfolioConfig = {
     // … include all other links
   ],
 
-  // API Keys (move sensitive keys to .env in production)
-  apiKeys: {
-    resendApiKey: "re_LGaRDrPB_7SJNroSPji7uwfwjexwxpEdC",
-  },
 };
