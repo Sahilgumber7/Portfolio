@@ -31,6 +31,21 @@ const projectsPage = () => {
           return <ProjectCards key={indx} value={val} num={indx} />;
         })}
       </div>
+
+      <div className="flex flex-col gap-3 mt-5">
+        <Heading>Client Work</Heading>
+        <FramerWrapper y={0} x={200}>
+          <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
+            Professional projects I&#x27;ve delivered for clients.
+          </p>
+        </FramerWrapper>
+      </div>
+
+      <div className=" w-full flex flex-row flex-wrap gap-3 max-lg:flex-col">
+        {portfolioConfig.clientProjects.map((val, indx) => {
+          return <ProjectCards key={indx} value={val} num={indx} />;
+        })}
+      </div>
     </div>
   );
 };

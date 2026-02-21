@@ -17,7 +17,7 @@ export const SendEmail = async (formdata: FormData) => {
   const toEmail =
     process.env.NODE_ENV === "development"
       ? "sahilgumber13418@gmail.com" // only your verified email in dev/test mode
-      : "mdtaqui.jhar@gmail.com";    // real recipient in production
+      : "sahilgumber13418@gmail.com";    // real recipient in production
 
   // Use your verified email as "from"
   const fromEmail = "Contact Form <sahilgumber13418@gmail.com>";

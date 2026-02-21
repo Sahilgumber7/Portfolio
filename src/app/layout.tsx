@@ -60,14 +60,18 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <main
             className={cn(
-              "flex relative break-words h-dvh min-h-screen items-center justify-between pt-14 pb-4 px-40 max-md:p-4 max-sm:pt-20",
+              "flex flex-col relative break-words min-h-screen pt-14 pb-4 px-40 max-md:p-4 max-sm:pt-20",
               "bg-white dark:bg-black",
-              "text-black dark:text-white",
-              "bg-[radial-gradient(#2f7df4_1px,transparent_1px)] dark:bg-[radial-gradient(#2f7df4cc_1px,transparent_1px)] [background-size:16px_16px]"
+              "text-black dark:text-white"
             )}
           >
-            <Navbar />
-            {children}
+            {/* Background Grid and Mask */}
+            <div className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_80%_80%_at_50%_50%,#000_70%,transparent_100%)]" />
+
+            <div className="relative z-10 w-full">
+              <Navbar />
+              {children}
+            </div>
           </main>
         </ThemeProvider>
       </body>

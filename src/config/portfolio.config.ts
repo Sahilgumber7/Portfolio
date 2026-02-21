@@ -17,8 +17,8 @@ export const portfolioConfig = {
 
   // SEO Information
   seo: {
-    url: "https://sahlgumber7.vercel.app", // Add your deployed URL here
-    ogImage: "https://sahlgumber7.vercel.app/og-image.png", // Add OG image path
+    url: "https://sahilgumber7.vercel.app", // Add your deployed URL here
+    ogImage: "https://sahilgumber7.vercel.app/og-image.png", // Add OG image path
     twitterHandle: "@sahilgumber7_",
     keywords: [
       "Sahil Gumber", "Full Stack Developer", "Web Developer", "Mobile Developer",
@@ -46,7 +46,7 @@ export const portfolioConfig = {
   // Skills and Roles
   skills: {
     roles: [
-      "Freelancer", "Doom Scroller", "Yapper", "Creator", "Student", "Contributor"
+      "Freelancer", "Creator", "Student", "Contributor", "Full Stack Developer"
     ],
     programmingLanguages: [
       { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
@@ -132,7 +132,16 @@ export const portfolioConfig = {
       tags: ["Typescript", "Supabase", "Shadcn Ui", "Nextjs"],
       link: "https://finatics-kp40jlck3-sahilgumber7s-projects.vercel.app",
     },
-    // … include all other existing projects here
+  ],
+
+  // Client Work
+  clientProjects: [
+    {
+      title: "QuickITR - Landing Page",
+      description: "Developed a responsive landing page for QuickITR, a tax filing service.",
+      tags: ["Freelancing", "Nextjs", "Tailwindcss"],
+      link: "https://quickitr.in",
+    },
   ],
 
   // More Links
@@ -147,7 +156,6 @@ export const portfolioConfig = {
       description: "See daily moments shared by the community on Instagram.",
       link: "https://instagram.com/indianskyimages",
     },
-    // … include all other links
   ],
 
 };

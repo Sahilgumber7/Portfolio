@@ -6,10 +6,10 @@ const GithubBtn = () => {
     <Link
       href={"https://github.com/sahilgumber7"}
       target="_blank"
-      className="animate-pulse absolute left-0 bottom-16 sm:bottom-5 flex rounded-r-full justify-center items-center gap-2 z-50 w-fit h-fit px-3 py-1.5 shadow-md border-y border-r border-black dark:border-white text-black dark:text-white hover:bg-primary hover:text-white dark:hover:text-black hover:animate-none transition"
+      className="fixed left-5 top-5 flex rounded-full justify-center items-center gap-2 z-50 w-fit h-fit px-4 py-2 backdrop-blur-md bg-white/20 dark:bg-black/20 border border-black/10 dark:border-white/10 text-black dark:text-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition shadow-lg"
     >
-      <Github />
-      <span className="font-rubik text-xl max-sm:text-lg">Github</span>
+      <Github className="h-4 w-4" />
+      <span className="font-rubik text-sm">Github</span>
     </Link>
   );
 };

@@ -5,9 +5,9 @@ import HackerBtn from './animation/HackerBtn'
 
 function DownLoadResumeBtn() {
   return (
-    <div className="h-fit w-full mt-2 py-2 px-4">
+    <div className="h-fit w-full px-0">
       <a
-        href="/sahilresume.pdf" 
+        href="/sahilresume.pdf"
       >
         <HackerBtn label="View My Resume" />
       </a>
