@@ -60,7 +60,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <main
             className={cn(
-              "flex flex-col relative break-words min-h-screen pt-14 pb-4 px-40 max-md:p-4 max-sm:pt-20",
+              "flex flex-col relative break-words min-h-screen pt-20 pb-10 px-4 md:px-10 lg:px-20 xl:px-40",
               "bg-white dark:bg-black",
               "text-black dark:text-white"
             )}

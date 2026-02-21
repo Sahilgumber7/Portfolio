@@ -1,9 +1,12 @@
+import { School } from "lucide-react";
+
 export const portfolioConfig = {
   // Basic Information
   name: "Sahil Gumber",
   title: "Full Stack Web & Mobile Developer",
   title2: "Full Stack Developer",
-  description: "I am a Passionate Software Developer",
+  description:
+    "Full Stack Developer focused on building fast, scalable, and user-centric web & mobile applications.",
   location: "Delhi, India",
   email: "sahilgumber13418@gmail.com",
 
@@ -17,13 +20,26 @@ export const portfolioConfig = {
 
   // SEO Information
   seo: {
-    url: "https://sahilgumber7.vercel.app", // Add your deployed URL here
-    ogImage: "https://sahilgumber7.vercel.app/og-image.png", // Add OG image path
+    url: "https://sahilgumber7.vercel.app",
+    ogImage: "https://sahilgumber7.vercel.app/og-image.png",
     twitterHandle: "@sahilgumber7_",
     keywords: [
-      "Sahil Gumber", "Full Stack Developer", "Web Developer", "Mobile Developer",
-      "React", "Next.js", "JavaScript", "TypeScript", "Portfolio", "Tailwind CSS",
-      "MongoDB", "Supabase", "Firebase", "Developer Portfolio" , "Sahil", "Gumber", "sahilgumber7"
+      "Sahil Gumber",
+      "Full Stack Developer",
+      "Web Developer",
+      "Mobile App Developer",
+      "React Developer",
+      "Next.js Developer",
+      "JavaScript",
+      "TypeScript",
+      "React Native",
+      "Tailwind CSS",
+      "MongoDB",
+      "Supabase",
+      "Firebase",
+      "Developer Portfolio",
+      "Delhi Developer",
+      "sahilgumber7",
     ],
     authors: [
       {
@@ -35,10 +51,11 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: "I'm a Full Stack Web Developer based in Delhi, India, passionate about building clean, responsive, and user-friendly web apps. I specialize in modern JavaScript frameworks like React and Next.js, and use tools like Tailwind CSS, MongoDB, Supabase, and Firebase. I enjoy turning ideas into real projects, contributing to open source, and exploring new technologies to create fast, functional digital experiences.",
+    bio:
+      "I'm a Full Stack Developer based in Delhi, India, passionate about building clean, performant, and scalable digital products. I work primarily with modern JavaScript frameworks like React, Next.js, and React Native, backed by tools such as Tailwind CSS, Supabase, MongoDB, and Firebase. I enjoy turning ideas into real-world products, contributing to open-source, and constantly learning new technologies to improve user experience and performance.",
     personalInfo: {
       language: "English, Hindi",
-      nationality: "India",
+      nationality: "Indian",
       gender: "Male",
     },
   },
@@ -46,7 +63,11 @@ export const portfolioConfig = {
   // Skills and Roles
   skills: {
     roles: [
-      "Freelancer", "Creator", "Student", "Contributor", "Full Stack Developer"
+      "Full Stack Developer",
+      "Freelancer",
+      "Creator",
+      "Open Source Contributor",
+      "Student",
     ],
     programmingLanguages: [
       { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
@@ -60,6 +81,7 @@ export const portfolioConfig = {
     frameworks: [
       { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
       { name: "Next.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+      { name: "React Native", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
       { name: "Vue.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
       { name: "Tailwind CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
       { name: "Bootstrap", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
@@ -81,81 +103,157 @@ export const portfolioConfig = {
       degree: "Senior Secondary School",
       institution: "Bharti Public School",
       location: "Delhi",
-      period: "2009 - 2022",
-      description: "Completed my Senior Secondary education with a focus on Science and Mathematics.",
+      period: "2009 – 2022",
+      description:
+        "Completed Senior Secondary education with a strong foundation in Science and Mathematics.",
     },
     {
       degree: "B.Tech in Computer Science",
       institution: "Guru Gobind Singh Indraprastha University",
       location: "Vivekanand Institute of Professional Studies, Delhi",
-      period: "2022 - 2026",
-      description: "Pursuing B.Tech in CS, focusing on software development and web technologies.",
+      period: "2022 – 2026",
+      description:
+        "Currently pursuing B.Tech in Computer Science with a focus on software engineering, web development, and modern application architecture.",
     },
   ],
 
   // Experience
+    // Experience
   experience: [
     {
       role: "Technical Intern",
       company: "Get Max Value Pvt. Ltd.",
       location: "Delhi",
-      period: "June 2024 - July 2024",
-      description: "Focused on web development and software testing.",
+      period: "June 2024 – July 2024",
+      description:
+        "Contributed to frontend development tasks, assisted in software testing, and supported feature validation for client-facing web applications.",
     },
     {
-      role: "Technical Intern",
+      role: "UI/UX & Chatbot Intern",
       company: "QuickITR",
       location: "Delhi",
-      period: "July 2024 - August 2024",
-      description: "UI/UX Designer Intern and chatbot development using Twilio + Python.",
+      period: "July 2024 – August 2024",
+      description:
+        "Designed UI/UX flows and developed an automated chatbot using Twilio and Python to improve customer interaction and support efficiency.",
     },
     {
       role: "React Native Intern",
       company: "PYOP",
       location: "Delhi",
-      period: "May 2025 - Ongoing",
-      description: "Developing cross-platform mobile applications using React Native.",
+      period: "May 2025 – August 2025",
+      description:
+        "Developed and maintained cross-platform mobile applications using React Native, focusing on performance, UI consistency, and reusable components.",
+    },
+    {
+      role: "Full Stack Developer",
+      company: "PapayaGenie",
+      location: "Delhi",
+      period: "August 2025 – October 2025",
+      description:
+        "Worked on full-stack web development, building and integrating frontend features with backend APIs while ensuring scalability and clean architecture.",
+    },
+    {
+      role: "Full Stack Mobile Developer",
+      company: "TruckSarthi",
+      location: "Delhi",
+      period: "October 2025 – January 2026",
+      description:
+        "Built and optimized mobile application features using React Native, collaborating closely with backend services for real-time data handling.",
+    },
+    {
+      role: "Full Stack Mobile Developer",
+      company: "Psytech",
+      location: "Delhi",
+      period: "January 2026 – Present",
+      description:
+        "Currently developing scalable mobile and web solutions, handling end-to-end feature development from UI implementation to backend integration.",
     },
   ],
 
   // Projects
   projects: [
     {
-      title: "Indianskyimages- A community driven app",
-      description: "A community-driven app for sharing daily moments through images and videos.",
-      tags: ["Nextjs", "Typescript", "Tailwindcss", "Shadcn Ui", "Supabase"],
-      link: "https://indian-sky-images.vercel.app",
+      title: "indianskyimages",
+      description:
+        "A community-driven platform for sharing daily sky moments through images and videos, built with a modern full-stack architecture.",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI", "Supabase"],
+      link: "https://indianskyimages.vercel.app",
     },
     {
-      title: "Finatics- A Finance App",
-      description: "Helps users manage finances effectively with budgeting and tracking tools.",
-      tags: ["Typescript", "Supabase", "Shadcn Ui", "Nextjs"],
+
+      title: "resume.io",
+      description: "A resume builder website that helps users create professional resumes with ATS templates.",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI"],
+      link: "https://resume-io-xi.vercel.app",
+    },
+    {
+      title: "Finatics",
+      description:
+        "A finance management web app that helps users track expenses, manage budgets, and gain insights into their spending.",
+      tags: ["Next.js", "TypeScript", "Supabase", "Shadcn UI"],
       link: "https://finatics-kp40jlck3-sahilgumber7s-projects.vercel.app",
     },
+    {
+      title: "gigs.io",
+      description:
+        "A  backend built platform for freelancers to showcase their work and find clients.",
+      tags: ["Express", "TypeScript", "MongoDB"],
+      link: "https://gigs-io.vercel.app",
+    }
   ],
 
-  // Client Work
+    // Client Work
   clientProjects: [
     {
-      title: "QuickITR - Landing Page",
-      description: "Developed a responsive landing page for QuickITR, a tax filing service.",
-      tags: ["Freelancing", "Nextjs", "Tailwindcss"],
+      title: "QuickITR – Landing Page",
+      description:
+        "Designed and developed a responsive, SEO-optimized landing page for a tax filing platform.",
+      tags: ["Freelancing", "Next.js", "Tailwind CSS"],
       link: "https://quickitr.in",
+    },
+    {
+      title: "Couture by Sanginee",
+      description:
+        "Developed a modern fashion brand website to showcase collections, improve brand presence, and attract customers.",
+      tags: ["Freelancing", "Next.js", "Tailwind CSS"],
+      link: "https://couture-bysanginee.vercel.app", // add link if deployed
+    },
+    {
+      title: "Baking School",
+      description:
+        "Built an informational and marketing website for a baking school, highlighting courses, schedules, and admissions.",
+      tags: ["Freelancing", "Web Design", "Frontend Development"],
+      link: "https://bakingschool.in", // add link if available
+    },
+    {
+      title: "Himax Industries",
+      description:
+        "Created a corporate website for an industrial manufacturing company to present products, services, and company profile.",
+      tags: ["Freelancing", "Corporate Website", "Frontend"],
+      link: "https://himaxindustries.in", // add link if available
+    },
+    {
+      title: "Mediatek 9000 Chip",
+      description:
+        "Designed a product-focused informational website explaining specifications and features of the Mediatek 9000 chipset.",
+      tags: ["Freelancing", "Landing Page", "Tech Website"],
+      link: "https://mediatek-beta.vercel.app", // add link if available
     },
   ],
 
   // More Links
   moreLinks: [
     {
-      title: "indianskyimages Twitter",
-      description: "Follow indianskyimages on Twitter for updates and announcements.",
+      title: "IndianSkyImages on Twitter",
+      description:
+        "Follow IndianSkyImages for daily sky photos, community highlights, and updates.",
       link: "https://twitter.com/indianskyimages",
     },
     {
-      title: "indianskyimages Instagram",
-      description: "See daily moments shared by the community on Instagram.",
+      title: "IndianSkyImages on Instagram",
+      description:
+        "Explore daily sky moments shared by photographers from across India.",
       link: "https://instagram.com/indianskyimages",
     },
   ],
-
 };

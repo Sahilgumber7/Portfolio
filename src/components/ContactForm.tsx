@@ -14,55 +14,48 @@ import { SendEmail } from "./SendEmail";
 
 const ContactForm = () => {
   return (
-    <Card>
+    <div className="w-full">
       <form
         action={async (FormData) => {
           "use server";
           await SendEmail(FormData);
         }}
+        className="space-y-6"
       >
-        <CardHeader>
-          <CardTitle className="icon_underline">Send me a mail.</CardTitle>
-          <CardDescription>
-            Once form is submit you will be redirect to home page.
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="grid w-full max-w-sm items-center gap-1.5 mt-2">
-            <Label htmlFor="name">Name</Label>
-            <Input
-              type="text"
-              name="name"
-              required
-              placeholder="Enter your name"
-            />
-          </div>
-          <div className="grid w-full max-w-sm items-center gap-1.5 mt-2">
-            <Label htmlFor="email">Email</Label>
-            <Input
-              type="email"
-              name="SenderEmail"
-              required
-              placeholder="Enter your email"
-            />
-          </div>
-          <div className="grid w-full max-w-sm items-center gap-1.5 mt-2">
-            <Label htmlFor="message">Your Message</Label>
-            <textarea
-              placeholder="Your message here..."
-              name="message"
-              required
-              className=" resize-none flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            ></textarea>
-          </div>
-        </CardContent>
-        <CardFooter>
-          <Button type="submit" className="w-full">
-            Submit
-          </Button>
-        </CardFooter>
+        <div className="space-y-2">
+          <Label htmlFor="name" className="text-sm font-bold uppercase tracking-widest opacity-60 ml-2">Full Name</Label>
+          <Input
+            type="text"
+            name="name"
+            required
+            placeholder="John Doe"
+            className="h-14 rounded-2xl border-white/10 bg-white/5 dark:bg-black/20 backdrop-blur-md focus:ring-primary focus:border-primary transition-all duration-300"
+          />
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor="email" className="text-sm font-bold uppercase tracking-widest opacity-60 ml-2">Email Address</Label>
+          <Input
+            type="email"
+            name="SenderEmail"
+            required
+            placeholder="john@example.com"
+            className="h-14 rounded-2xl border-white/10 bg-white/5 dark:bg-black/20 backdrop-blur-md focus:ring-primary focus:border-primary transition-all duration-300"
+          />
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor="message" className="text-sm font-bold uppercase tracking-widest opacity-60 ml-2">Your Message</Label>
+          <textarea
+            placeholder="How can I help you?"
+            name="message"
+            required
+            className="resize-none flex min-h-[150px] w-full rounded-[2rem] border border-white/10 bg-white/5 dark:bg-black/20 backdrop-blur-md px-4 py-4 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary transition-all duration-300"
+          ></textarea>
+        </div>
+        <Button type="submit" className="w-full h-14 rounded-full text-lg font-bold shadow-2xl hover:scale-[1.02] transition-transform duration-300 bg-primary text-primary-foreground">
+          Send Message
+        </Button>
       </form>
-    </Card>
+    </div>
   );
 };
 

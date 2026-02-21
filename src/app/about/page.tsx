@@ -67,7 +67,7 @@ const AboutPage = () => {
           </div>
 
           <div className="rounded-[2rem] bg-gradient-to-br from-primary/10 to-transparent border border-white/10 p-8 flex flex-col items-center text-center backdrop-blur-sm">
-            <p className="font-poppins italic text-lg opacity-80 leading-relaxed font-light">"Crafting digital interfaces that blend aesthetics with functionality."</p>
+            <p className="font-poppins italic text-lg opacity-80 leading-relaxed font-light">&quot;Crafting digital interfaces that blend aesthetics with functionality.&quot;</p>
           </div>
         </div>
       </FramerWrapper>

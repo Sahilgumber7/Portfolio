@@ -9,9 +9,9 @@ const projectsPage = () => {
   return (
     <div className="h-full w-full py-8 md:py-12 flex flex-col items-center justify-center p-4">
       <FramerWrapper
-        className="w-full max-w-6xl backdrop-blur-xl bg-white/30 dark:bg-black/30 border border-white/20 dark:border-white/10 rounded-[3rem] p-8 md:p-12 shadow-2xl flex flex-col gap-12"
+        className="w-full max-w-6xl backdrop-blur-xl bg-white/30 dark:bg-black/30 border border-white/20 dark:border-white/10 rounded-[2rem] md:rounded-[3rem] p-6 md:p-12 shadow-2xl flex flex-col gap-12"
         y={0}
-        scale={0.95}
+        scale={1}
       >
         {/* Header Section */}
         <div className="flex flex-col items-start gap-5">
@@ -23,7 +23,7 @@ const projectsPage = () => {
           <div className="flex flex-col gap-3 text-left w-full">
             <Heading>Featured Projects</Heading>
             <p className="font-poppins text-lg md:text-xl text-foreground/70 max-w-3xl leading-relaxed font-light">
-              I love building innovative digital experiences. Here you'll find a curated
+              I love building innovative digital experiences. Here you&apos;ll find a curated
               collection of my creative endeavors and technical projects.
             </p>
           </div>
