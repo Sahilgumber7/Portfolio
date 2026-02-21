@@ -11,10 +11,10 @@ export default function Home() {
       {/* HERO SECTION - iPhone Card Style */}
       <section className="min-h-[85vh] flex items-center justify-center p-4">
         <FramerWrapper
-          className="w-full max-w-6xl relative overflow-hidden backdrop-blur-xl bg-white/40 dark:bg-black/40 border border-white/20 dark:border-white/10 rounded-[3rem] p-8 md:p-16 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-12"
+          className="w-full max-w-6xl relative overflow-hidden backdrop-blur-xl bg-white/40 dark:bg-black/40 border border-white/20 dark:border-white/10 rounded-[2rem] md:rounded-[3rem] p-6 md:p-16 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-12"
           y={0}
           x={0}
-          scale={0.95}
+          scale={1}
         >
           {/* Background Decorative Gradient */}
           <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-primary/10 rounded-full blur-3xl pointer-events-none" />
